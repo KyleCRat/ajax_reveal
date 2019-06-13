@@ -6,18 +6,12 @@ module AjaxReveal
     # end
 
     def show
-      @reveal = "reveals/#{params[:reveal]}"
+      @reveal = CGI.unescape(params[:reveal])
 
       respond_to do |format|
         format.js  { render 'show' }
         format.all { render nothing: true, status: 200 }
       end
-    end
-
-    def new
-    end
-
-    def create
     end
   end
 end
