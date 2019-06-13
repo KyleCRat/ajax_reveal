@@ -1,6 +1,5 @@
 (function($) {
   // Javascript to append the reveal modal to the body and then open it
-  console.log('<%= @reveal %>');
   $('body').append('<%= j(render partial: 'reveal_wrapper', locals: { reveal: @reveal } ) %>').foundation();
   $('#ajax-modal').foundation('open');
 })(jQuery);
