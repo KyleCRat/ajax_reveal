@@ -1,6 +1,6 @@
 # AjaxReveal
 
-AjaxReveal is a small gem built to drastically simplify rendering `foundation` reveals via a remote Ajax call.
+AjaxReveal is a small gem built to drastically simplify rendering rails partials in `foundation` reveals via a remote Ajax call.
 
 ## Installation
 
