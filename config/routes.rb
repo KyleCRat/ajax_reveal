@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get '/reveals/:reveal',
-      to: 'ajax_reveal/ajax_reveals#show',
-      as: :ajax_reveal_show
+  get '/remote_modals/:remote_modal',
+      to: 'remote_modal/remote_modals#show',
+      as: :remote_modal_show
 end

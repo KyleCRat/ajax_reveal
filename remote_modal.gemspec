@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "ajax_reveal/version"
+require "remote_modal/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "ajax_reveal"
-  spec.version       = Foundation::AjaxReveal::VERSION
+  spec.name          = "remote_modal"
+  spec.version       = RemoteModal::VERSION
   spec.authors       = ["Kyle Ratliff"]
   spec.email         = ["KyleCRat@me.com"]
 
@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
     spec.metadata['allowed_push_host'] = 'https://rubygems.org/'
 
     spec.metadata['homepage_uri'] = spec.homepage
-    spec.metadata['source_code_uri'] = 'https://github.com/KyleCRat/foundation-ajax_reveal'
-    spec.metadata['changelog_uri'] = 'https://github.com/KyleCRat/foundation-ajax_reveal/blob/master/README.md'
+    spec.metadata['source_code_uri'] = 'https://github.com/KyleCRat/foundation-remote_modal'
+    spec.metadata['changelog_uri'] = 'https://github.com/KyleCRat/foundation-remote_modal/blob/master/README.md'
   else
     raise 'RubyGems 2.0 or newer is required to protect against ' \
       'public gem pushes.'
