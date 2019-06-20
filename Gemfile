@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in foundation-ajax_reveal.gemspec
+# Specify your gem's dependencies in foundation-remote_modal.gemspec
 gemspec

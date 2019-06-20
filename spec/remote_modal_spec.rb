@@ -1,6 +1,6 @@
-RSpec.describe AjaxReveal do
+RSpec.describe RemoteModal do
   it "has a version number" do
-    expect(AjaxReveal::VERSION).not_to be nil
+    expect(RemoteModal::VERSION).not_to be nil
   end
 
   it "does something useful" do

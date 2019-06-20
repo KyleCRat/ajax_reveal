@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "foundation/ajax_reveal"
+require "foundation/remote_modal"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
