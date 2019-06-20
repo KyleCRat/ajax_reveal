@@ -1,8 +1,8 @@
-require 'ajax_reveal/configuration'
-require 'ajax_reveal/version'
-require 'ajax_reveal/engine'
+require 'remote_modal/configuration'
+require 'remote_modal/version'
+require 'remote_modal/engine'
 
-module AjaxReveal
+module RemoteModal
   class Error < StandardError; end
 
   class << self

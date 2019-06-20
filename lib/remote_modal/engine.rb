@@ -1,3 +1,3 @@
-module AjaxReveal
+module RemoteModal
   class Engine < Rails::Engine; end
 end
