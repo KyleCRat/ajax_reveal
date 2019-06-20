@@ -5,7 +5,7 @@ require "ajax_reveal/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "ajax_reveal"
-  spec.version       = Foundation::AjaxReveal::VERSION
+  spec.version       = AjaxReveal::VERSION
   spec.authors       = ["Kyle Ratliff"]
   spec.email         = ["KyleCRat@me.com"]
 
